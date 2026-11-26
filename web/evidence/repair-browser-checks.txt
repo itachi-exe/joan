@@ -1,0 +1,149 @@
+
+> joan-web@0.1.0 test:e2e
+> /usr/bin/python3 scripts/integration.py
+
+PASS 390 actual empty API has commissioning CTA
+PASS 390 online empty edition never uses sample stories
+PASS 1440 actual empty API has commissioning CTA
+PASS 1440 online empty edition never uses sample stories
+PASS mobile entrance zero overflow
+PASS mobile sound control stays labelled
+PASS mobile typed entrance moment
+PASS mobile typewriter and paper audio sources scheduled
+PASS mobile front zero overflow
+PASS mobile server reports replace samples
+PASS mobile server mock provenance retained
+PASS mobile real wire reports
+PASS mobile right column furniture
+PASS mobile section filter
+PASS mobile dispatch zero overflow
+PASS mobile report attribution
+PASS mobile dispatch furniture
+PASS mobile dispatch-body zero overflow
+PASS mobile receipt zero overflow
+PASS mobile mock receipt not explorer
+PASS mobile page turn
+PASS mobile archives zero overflow
+PASS mobile validation
+PASS mobile commission zero overflow
+PASS mobile published zero overflow
+PASS mobile stable idempotency header
+PASS mobile report is API persisted
+PASS mobile archives survive cleared browser storage
+PASS mobile dashboard zero overflow
+PASS mobile permissions zero overflow
+PASS mobile allowed buy adds receipt
+PASS mobile ledger zero overflow
+PASS mobile blocked buy truthful layer
+PASS mobile blocked buy cannot debit or publish
+PASS mobile SDK vs chain explanation
+PASS mobile blocked zero overflow
+PASS mobile revoke persisted
+PASS mobile revoked buy refused
+PASS mobile revoked zero overflow
+PASS mobile revoked buy cannot debit or publish
+PASS mobile revoked reload
+PASS mobile bounded regrant
+PASS mobile about zero overflow
+PASS mobile 90s zero overflow
+PASS mobile no failed images
+PASS mobile zero console errors (no exemptions)
+PASS mobile zero failed HTTP responses
+PASS mobile actual API attempt outcomes
+PASS desktop entrance zero overflow
+PASS desktop sound control stays labelled
+PASS desktop typed entrance moment
+PASS desktop typewriter and paper audio sources scheduled
+PASS desktop front zero overflow
+PASS desktop server reports replace samples
+PASS desktop server mock provenance retained
+PASS desktop real wire reports
+PASS desktop right column furniture
+PASS desktop section filter
+PASS desktop dispatch zero overflow
+PASS desktop report attribution
+PASS desktop dispatch furniture
+PASS desktop dispatch-body zero overflow
+PASS desktop receipt zero overflow
+PASS desktop mock receipt not explorer
+PASS desktop page turn
+PASS desktop archives zero overflow
+PASS desktop validation
+PASS desktop commission zero overflow
+PASS desktop published zero overflow
+PASS desktop stable idempotency header
+PASS desktop report is API persisted
+PASS desktop archives survive cleared browser storage
+PASS desktop dashboard zero overflow
+PASS desktop permissions zero overflow
+PASS desktop allowed buy adds receipt
+PASS desktop ledger zero overflow
+PASS desktop blocked buy truthful layer
+PASS desktop blocked buy cannot debit or publish
+PASS desktop SDK vs chain explanation
+PASS desktop blocked zero overflow
+PASS desktop revoke persisted
+PASS desktop revoked buy refused
+PASS desktop revoked zero overflow
+PASS desktop revoked buy cannot debit or publish
+PASS desktop revoked reload
+PASS desktop bounded regrant
+PASS desktop about zero overflow
+PASS desktop 90s zero overflow
+PASS desktop no failed images
+PASS desktop zero console errors (no exemptions)
+PASS desktop zero failed HTTP responses
+PASS desktop actual API attempt outcomes
+PASS reduced motion immediate handoff
+PASS offline/malformed API labelled sample fallback
+PASS entire browser suite zero console errors (including empty, reduced motion, fallback)
+PASS entire browser suite zero failed HTTP responses
+PASS compiled API restart preserves reports
+PASS compiled API restart preserves balance and ledger
+PASS: 98 real API/browser/restart assertions. Evidence: /opt/hermes/projects/hackathon-sprint/joan/web/evidence. Sheets: /opt/hermes/projects/hackathon-sprint/joan/web/shots/wednesday
+
+> joan-web@0.1.0 test:swipe
+> /usr/bin/python3 scripts/swipe.py
+
+{
+  "start": {
+    "left": 0,
+    "hash": "#/story/3f6a8b38-00be-4862-afaf-9f23322e1e2e",
+    "dot": 0
+  },
+  "left1": {
+    "left": 390,
+    "hash": "#/story/2f251814-4684-4ab5-a402-6f0a62eb60b8",
+    "dot": 1
+  },
+  "left2": {
+    "left": 780,
+    "hash": "#/story/3592cae1-201e-4bc6-808a-fd5fbc21652d",
+    "dot": 2
+  },
+  "right": {
+    "left": 390,
+    "hash": "#/story/2f251814-4684-4ab5-a402-6f0a62eb60b8",
+    "dot": 1
+  },
+  "verticalScroll": 663,
+  "documentWidth": 390,
+  "consoleErrors": []
+}
+PASS: CDP left, left, right, vertical swipe; zero console errors; zero overflow
+[
+  {
+    "reference": "/opt/hermes/projects/hackathon-sprint/joan/inspo/gazette-pinterest.jpeg",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "comparison": "/opt/hermes/projects/hackathon-sprint/joan/web/shots/comparisons/gazette-pinterest-all-compositions.jpg",
+    "views": [
+      "front",
+      "dispatch-body",
+      "archives"
+    ]
+  }
+]
+PASS: all 1 supplied inspiration images paired with three implemented compositions

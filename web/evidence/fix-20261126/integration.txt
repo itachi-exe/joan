@@ -1,0 +1,148 @@
+PASS 390 actual empty API has commissioning CTA
+PASS 390 online empty edition never uses sample stories
+PASS 390 empty Archives explains next step
+PASS 390 empty Archives keeps add-clipping card
+PASS 1440 actual empty API has commissioning CTA
+PASS 1440 online empty edition never uses sample stories
+PASS 1440 empty Archives explains next step
+PASS 1440 empty Archives keeps add-clipping card
+PASS mobile entrance zero overflow
+PASS mobile entrance readable type floor
+PASS mobile sound control stays labelled
+PASS mobile typed entrance moment
+PASS mobile typewriter and paper audio sources scheduled
+PASS mobile front zero overflow
+PASS mobile front readable type floor
+PASS mobile server reports replace samples
+PASS mobile front page pictures are distinct
+PASS mobile server mock provenance retained
+PASS mobile real wire reports
+PASS mobile right column furniture
+PASS mobile section filter
+PASS mobile dispatch zero overflow
+PASS mobile dispatch stays aligned after hint timer
+PASS mobile dispatch readable type floor
+PASS mobile dispatch has labelled dates
+PASS mobile report attribution
+PASS mobile dispatch furniture
+PASS mobile dispatch-body zero overflow
+PASS mobile dispatch-body readable type floor
+PASS mobile receipt zero overflow
+PASS mobile receipt readable type floor
+PASS mobile mock receipt not explorer
+PASS mobile page turn
+PASS mobile archives zero overflow
+PASS mobile archives readable type floor
+PASS mobile validation
+PASS mobile commission zero overflow
+PASS mobile commission readable type floor
+PASS mobile published zero overflow
+PASS mobile published readable type floor
+PASS mobile stable idempotency header
+PASS mobile report is API persisted
+PASS mobile archives survive cleared browser storage
+PASS mobile dashboard zero overflow
+PASS mobile dashboard readable type floor
+PASS mobile permissions zero overflow
+PASS mobile permissions readable type floor
+PASS mobile allowed buy adds receipt
+PASS mobile ledger zero overflow
+PASS mobile ledger readable type floor
+PASS mobile blocked buy truthful layer
+PASS mobile blocked buy cannot debit or publish
+PASS mobile SDK vs chain explanation
+PASS mobile blocked zero overflow
+PASS mobile blocked readable type floor
+PASS mobile revoke persisted
+PASS mobile revoked buy refused
+PASS mobile revoked zero overflow
+PASS mobile revoked readable type floor
+PASS mobile revoked buy cannot debit or publish
+PASS mobile commission while revoked gives reason and fix
+PASS mobile revoked commission links to Desk
+PASS mobile revoked commission sends no request
+PASS mobile revoked commission zero console errors
+PASS mobile revoked reload
+PASS mobile bounded regrant
+PASS mobile about zero overflow
+PASS mobile about readable type floor
+PASS mobile 90s zero overflow
+PASS mobile 90s readable type floor
+PASS mobile no failed images
+PASS mobile zero console errors (no exemptions)
+PASS mobile zero failed HTTP responses
+PASS mobile actual API attempt outcomes
+PASS desktop entrance zero overflow
+PASS desktop entrance readable type floor
+PASS desktop sound control stays labelled
+PASS desktop typed entrance moment
+PASS desktop typewriter and paper audio sources scheduled
+PASS desktop front zero overflow
+PASS desktop front readable type floor
+PASS desktop server reports replace samples
+PASS desktop front page pictures are distinct
+PASS desktop server mock provenance retained
+PASS desktop real wire reports
+PASS desktop right column furniture
+PASS desktop section filter
+PASS desktop dispatch zero overflow
+PASS desktop dispatch stays aligned after hint timer
+PASS desktop dispatch readable type floor
+PASS desktop dispatch has labelled dates
+PASS desktop report attribution
+PASS desktop dispatch furniture
+PASS desktop dispatch-body zero overflow
+PASS desktop dispatch-body readable type floor
+PASS desktop receipt zero overflow
+PASS desktop receipt readable type floor
+PASS desktop mock receipt not explorer
+PASS desktop page turn
+PASS desktop archives zero overflow
+PASS desktop archives readable type floor
+PASS desktop validation
+PASS desktop commission zero overflow
+PASS desktop commission readable type floor
+PASS desktop published zero overflow
+PASS desktop published readable type floor
+PASS desktop stable idempotency header
+PASS desktop report is API persisted
+PASS desktop archives survive cleared browser storage
+PASS desktop dashboard zero overflow
+PASS desktop dashboard readable type floor
+PASS desktop permissions zero overflow
+PASS desktop permissions readable type floor
+PASS desktop allowed buy adds receipt
+PASS desktop ledger zero overflow
+PASS desktop ledger readable type floor
+PASS desktop blocked buy truthful layer
+PASS desktop blocked buy cannot debit or publish
+PASS desktop SDK vs chain explanation
+PASS desktop blocked zero overflow
+PASS desktop blocked readable type floor
+PASS desktop revoke persisted
+PASS desktop revoked buy refused
+PASS desktop revoked zero overflow
+PASS desktop revoked readable type floor
+PASS desktop revoked buy cannot debit or publish
+PASS desktop commission while revoked gives reason and fix
+PASS desktop revoked commission links to Desk
+PASS desktop revoked commission sends no request
+PASS desktop revoked commission zero console errors
+PASS desktop revoked reload
+PASS desktop bounded regrant
+PASS desktop about zero overflow
+PASS desktop about readable type floor
+PASS desktop 90s zero overflow
+PASS desktop 90s readable type floor
+PASS desktop no failed images
+PASS desktop zero console errors (no exemptions)
+PASS desktop zero failed HTTP responses
+PASS desktop actual API attempt outcomes
+PASS reduced motion immediate handoff
+PASS offline/malformed API labelled sample fallback
+PASS entire browser suite zero console errors (including empty, reduced motion, fallback)
+PASS entire browser suite zero failed HTTP responses
+PASS compiled API restart preserves reports
+PASS compiled API restart preserves balance and ledger
+PASS: 146 real API/browser/restart assertions. Evidence: /opt/hermes/projects/hackathon-sprint/joan/web/evidence. Sheets: /opt/hermes/projects/hackathon-sprint/joan/web/shots/wednesday
+EXIT 0

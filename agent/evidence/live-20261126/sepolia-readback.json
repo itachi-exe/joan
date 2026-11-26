@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-26T07:17:43.336Z",
+  "chainId": 11142220,
+  "address": "0x0B79D397cdF83af31e945aA52a2b91E37DBDcF10",
+  "nativeBalance": "0",
+  "usdcBalance": "1000000",
+  "nonce": 0,
+  "deployedCode": "0x",
+  "faucetTx": {
+    "hash": "0xc920ff357d200a7cf4f7e9db9e55d88ceedaaef4e561a9d526f3a0ec138010ce",
+    "status": "success",
+    "block": "42393205",
+    "logs": [
+      {
+        "address": "0x01c5c0122039549ad1493b8220cabedd739bc44e",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000c495397a2b14d6331bd8b51cf39eaab7bcd1fb8",
+          "0x0000000000000000000000000b79d397cdf83af31e945aa52a2b91e37dbdcf10"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000000000000000f4240"
+      }
+    ]
+  },
+  "keyFilePermissions": [
+    {
+      "name": "admin.key",
+      "mode": "600"
+    },
+    {
+      "name": "session.key",
+      "mode": "600"
+    }
+  ]
+}

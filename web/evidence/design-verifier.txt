@@ -1,0 +1,41 @@
+
+============================================================
+  VERIFY REPORT — web
+============================================================
+
+  ✅ No raw hex in markup
+
+  ✅ No pure black/white (#000 / #fff)
+
+  ✅ No inline style overrides
+
+  ✅ No Lorem Ipsum
+
+  ✅ Skeleton / loading states present
+     Found in: src/style.css
+
+  ❌ Empty states present
+     → Add empty state component: short message + optional CTA. See §14 of itachi_design_system.md
+
+  ✅ Error states handled
+     Found in: src/audio.ts
+     Found in: src/main.ts
+     Found in: src/adapters/desk.ts
+     Found in: src/adapters/research.ts
+
+  ✅ :focus-visible (not :focus) for rings
+
+  ✅ prefers-reduced-motion guard
+     Found in: src/style.css
+
+  ✅ Icon-only buttons have aria-label
+
+  ✅ Viewport meta tag present
+
+  ✅ Lighthouse scores
+     Skipped — no --url provided
+
+  ========================================
+  11/12 checks passed
+  ❌ 1 issues to fix before advancing
+

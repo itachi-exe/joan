@@ -1,0 +1,10 @@
+{
+  "name": "joan-agent", "version": "1.0.0", "private": true, "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "dev": "tsx src/server.ts", "build": "tsc -p tsconfig.json", "typecheck": "tsc --noEmit",
+    "start": "node dist/src/server.js", "test": "tsx --test test/*.test.ts",
+    "demo:allowed": "tsx src/demo.ts allowed", "demo:blocked": "tsx src/demo.ts blocked", "demo:revoke": "tsx src/demo.ts revoke", "demo:all": "tsx src/demo.ts all"
+  },
+  "devDependencies": { "@types/node": "^22.0.0", "tsx": "^4.20.0", "typescript": "^5.8.0" }
+}

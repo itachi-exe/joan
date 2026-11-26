@@ -1,0 +1,326 @@
+
+> joan-agent@1.0.0 test
+> tsx --test test/*.test.ts
+
+TAP version 13
+# (node:1954224) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Altana mock distinguishes SDK x402 cap from execute onchain policy refusals
+ok 1 - Altana mock distinguishes SDK x402 cap from execute onchain policy refusals
+  ---
+  duration_ms: 5.514466
+  type: 'test'
+  ...
+# Subtest: grant validates explicit cap, allowlist, expiry and revocation blocks both rails
+ok 2 - grant validates explicit cap, allowlist, expiry and revocation blocks both rails
+  ---
+  duration_ms: 1.353881
+  type: 'test'
+  ...
+# Subtest: expiry refusal uses simulated signature checker and execute layers
+ok 3 - expiry refusal uses simulated signature checker and execute layers
+  ---
+  duration_ms: 0.798757
+  type: 'test'
+  ...
+# Subtest: mock Celo Buy duplicate request returns one durable settlement
+ok 4 - mock Celo Buy duplicate request returns one durable settlement
+  ---
+  duration_ms: 5.229867
+  type: 'test'
+  ...
+# Subtest: live wallet configuration fails safely without signing, funding, grant or revoke
+ok 5 - live wallet configuration fails safely without signing, funding, grant or revoke
+  ---
+  duration_ms: 1.019298
+  type: 'test'
+  ...
+# Subtest: live Celo Buy URL never signs or makes a real purchase
+ok 6 - live Celo Buy URL never signs or makes a real purchase
+  ---
+  duration_ms: 2.182744
+  type: 'test'
+  ...
+# Subtest: mock search and LLM are deterministic and label unsupported claims
+ok 7 - mock search and LLM are deterministic and label unsupported claims
+  ---
+  duration_ms: 1.335035
+  type: 'test'
+  ...
+# Subtest: live search adapter parses public sources without inventing corroboration
+ok 8 - live search adapter parses public sources without inventing corroboration
+  ---
+  duration_ms: 31.688366
+  type: 'test'
+  ...
+# Subtest: live LLM validates JSON response and rejects malformed provider responses
+ok 9 - live LLM validates JSON response and rejects malformed provider responses
+  ---
+  duration_ms: 0.930813
+  type: 'test'
+  ...
+# Subtest: provider failures surface rather than silently replacing real research with mocks
+ok 10 - provider failures surface rather than silently replacing real research with mocks
+  ---
+  duration_ms: 0.998018
+  type: 'test'
+  ...
+# Subtest: switching adapter configuration never relabels old mock receipts as live
+ok 11 - switching adapter configuration never relabels old mock receipts as live
+  ---
+  duration_ms: 2.450682
+  type: 'test'
+  ...
+# Subtest: budget validation rejects NaN, negatives, excessive precision and cap above $10
+ok 12 - budget validation rejects NaN, negatives, excessive precision and cap above $10
+  ---
+  duration_ms: 0.324043
+  type: 'test'
+  ...
+# (node:1954225) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: attempt RPC evaluates real policy without treating domain refusal as transport failure
+ok 13 - attempt RPC evaluates real policy without treating domain refusal as transport failure
+  ---
+  duration_ms: 144.162575
+  type: 'test'
+  ...
+# Subtest: HTTP main flow: assignment, report, archive, wallet, permissions and ledger
+ok 14 - HTTP main flow: assignment, report, archive, wallet, permissions and ledger
+  ---
+  duration_ms: 63.138468
+  type: 'test'
+  ...
+# Subtest: concurrent duplicate HTTP commissions share one report and one payment
+ok 15 - concurrent duplicate HTTP commissions share one report and one payment
+  ---
+  duration_ms: 47.621069
+  type: 'test'
+  ...
+# Subtest: HTTP grant/revoke persists policy and blocks subsequent paid assignment
+ok 16 - HTTP grant/revoke persists policy and blocks subsequent paid assignment
+  ---
+  duration_ms: 45.0754
+  type: 'test'
+  ...
+# Subtest: HTTP low-budget assignment uses free research and no purchase
+ok 17 - HTTP low-budget assignment uses free research and no purchase
+  ---
+  duration_ms: 28.927466
+  type: 'test'
+  ...
+# Subtest: HTTP validation: invalid input, malformed JSON, size, media type, origins and 404
+ok 18 - HTTP validation: invalid input, malformed JSON, size, media type, origins and 404
+  ---
+  duration_ms: 37.705027
+  type: 'test'
+  ...
+# Subtest: workflow failure after purchase resumes with receipt and no duplicate settlement
+ok 19 - workflow failure after purchase resumes with receipt and no duplicate settlement
+  ---
+  duration_ms: 11.776544
+  type: 'test'
+  ...
+# (node:1954231) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: trusted proxy IP commissions are limited before research
+ok 20 - trusted proxy IP commissions are limited before research
+  ---
+  duration_ms: 78.878874
+  type: 'test'
+  ...
+# (node:1954250) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: allowance: exact assignment cap allowed, further reservation blocked
+ok 21 - allowance: exact assignment cap allowed, further reservation blocked
+  ---
+  duration_ms: 7.431606
+  type: 'test'
+  ...
+# Subtest: persistent session cap accounts for settled purchases and reservations
+ok 22 - persistent session cap accounts for settled purchases and reservations
+  ---
+  duration_ms: 1.893967
+  type: 'test'
+  ...
+# Subtest: duplicate reservation and settlement are idempotent; changed payload conflicts
+ok 23 - duplicate reservation and settlement are idempotent; changed payload conflicts
+  ---
+  duration_ms: 1.673045
+  type: 'test'
+  ...
+# Subtest: unknown, stale, invalid and insufficient balance all fail closed
+ok 24 - unknown, stale, invalid and insufficient balance all fail closed
+  ---
+  duration_ms: 2.723771
+  type: 'test'
+  ...
+# Subtest: pending reservations reduce balance available for other purchases
+ok 25 - pending reservations reduce balance available for other purchases
+  ---
+  duration_ms: 2.054565
+  type: 'test'
+  ...
+# Subtest: two SQLite connections cannot over-reserve assignment allowance
+ok 26 - two SQLite connections cannot over-reserve assignment allowance
+  ---
+  duration_ms: 38.984449
+  type: 'test'
+  ...
+# Subtest: restart reconciles crash after settlement without repaying or losing spend
+ok 27 - restart reconciles crash after settlement without repaying or losing spend
+  ---
+  duration_ms: 44.49051
+  type: 'test'
+  ...
+# Subtest: restart retains unresolved reservations and refuses automatic repurchase
+ok 28 - restart retains unresolved reservations and refuses automatic repurchase
+  ---
+  duration_ms: 31.237877
+  type: 'test'
+  ...
+# Subtest: settlement uncertainty is never silently retried
+ok 29 - settlement uncertainty is never silently retried
+  ---
+  duration_ms: 2.49728
+  type: 'test'
+  ...
+# Subtest: invalid monetary amounts are rejected
+ok 30 - invalid monetary amounts are rejected
+  ---
+  duration_ms: 1.314107
+  type: 'test'
+  ...
+# Subtest: assignment foreign key prevents orphan spending
+ok 31 - assignment foreign key prevents orphan spending
+  ---
+  duration_ms: 0.897781
+  type: 'test'
+  ...
+# (node:1954259) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: LLM budget fails closed before adapter invocation
+ok 32 - LLM budget fails closed before adapter invocation
+  ---
+  duration_ms: 5.450658
+  type: 'test'
+  ...
+# Subtest: daily counters survive reopening the SQLite file
+ok 33 - daily counters survive reopening the SQLite file
+  ---
+  duration_ms: 16.512793
+  type: 'test'
+  ...
+# Subtest: persistent limits refuse excess, separate buckets and reset windows
+ok 34 - persistent limits refuse excess, separate buckets and reset windows
+  ---
+  duration_ms: 0.733085
+  type: 'test'
+  ...
+# Subtest: commission cap runs before research and replay does not spend twice
+ok 35 - commission cap runs before research and replay does not spend twice
+  ---
+  duration_ms: 1.388064
+  type: 'test'
+  ...
+# (node:1954267) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: provider secret cannot enter API responses, persisted assignment errors, reports or console logs
+ok 36 - provider secret cannot enter API responses, persisted assignment errors, reports or console logs
+  ---
+  duration_ms: 55.365066
+  type: 'test'
+  ...
+# Subtest: public fetch refuses redirect to a private host without requesting it
+ok 37 - public fetch refuses redirect to a private host without requesting it
+  ---
+  duration_ms: 0.708328
+  type: 'test'
+  ...
+# Subtest: public fetch abort signal covers body consumption, not only initial headers
+ok 38 - public fetch abort signal covers body consumption, not only initial headers
+  ---
+  duration_ms: 15001.534273
+  type: 'test'
+  ...
+# Subtest: keyless search discovery labels HN metadata as leads, and empty results fail closed
+ok 39 - keyless search discovery labels HN metadata as leads, and empty results fail closed
+  ---
+  duration_ms: 3.703285
+  type: 'test'
+  ...
+# Subtest: original OpenAI route still uses its model and endpoint
+ok 40 - original OpenAI route still uses its model and endpoint
+  ---
+  duration_ms: 1.460519
+  type: 'test'
+  ...
+# Subtest: free live research reports have live zero-spend provenance and no mock purchases
+ok 41 - free live research reports have live zero-spend provenance and no mock purchases
+  ---
+  duration_ms: 5.455426
+  type: 'test'
+  ...
+# Subtest: keyless public sources fetch actual text and preserve source URLs without asserting corroboration
+ok 42 - keyless public sources fetch actual text and preserve source URLs without asserting corroboration
+  ---
+  duration_ms: 1.604227
+  type: 'test'
+  ...
+# Subtest: public research rejects unapproved URLs before fetching, rather than permitting SSRF
+ok 43 - public research rejects unapproved URLs before fetching, rather than permitting SSRF
+  ---
+  duration_ms: 1.452684
+  type: 'test'
+  ...
+# Subtest: public research bounds redirects, decoded stream size and total timeout; errors never become mocks
+ok 44 - public research bounds redirects, decoded stream size and total timeout; errors never become mocks
+  ---
+  duration_ms: 3.66287
+  type: 'test'
+  ...
+# Subtest: live drafts fail closed without valid per-source citations
+ok 45 - live drafts fail closed without valid per-source citations
+  ---
+  duration_ms: 2.555447
+  type: 'test'
+  ...
+# Subtest: long publisher documents select relevant passages rather than only navigation
+ok 46 - long publisher documents select relevant passages rather than only navigation
+  ---
+  duration_ms: 5.436501
+  type: 'test'
+  ...
+# Subtest: optional Tavily failures and reflected credentials are sanitized too
+ok 47 - optional Tavily failures and reflected credentials are sanitized too
+  ---
+  duration_ms: 1.510513
+  type: 'test'
+  ...
+# Subtest: compatible provider takes precedence and DeepSeek uses its documented endpoint
+ok 48 - compatible provider takes precedence and DeepSeek uses its documented endpoint
+  ---
+  duration_ms: 2.195938
+  type: 'test'
+  ...
+# Subtest: partial compatible configuration fails closed, never switches to OpenAI or mock
+ok 49 - partial compatible configuration fails closed, never switches to OpenAI or mock
+  ---
+  duration_ms: 0.6121
+  type: 'test'
+  ...
+# Subtest: provider secrets in generated output or thrown transport errors never escape
+ok 50 - provider secrets in generated output or thrown transport errors never escape
+  ---
+  duration_ms: 1.490584
+  type: 'test'
+  ...
+1..50
+# tests 50
+# suites 0
+# pass 50
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 16473.48275

@@ -1,0 +1,20 @@
+{
+  "allowed": {
+    "status": 200,
+    "allowOrigin": "https://joan-dispatch.vercel.app"
+  },
+  "foreign": {
+    "status": 403,
+    "allowOrigin": null
+  },
+  "serviceUnitMatchesRepository": true,
+  "externalVerification": "Independent extraction service read both public entry and health; Compute 4 Chrome verified 1440 and 390 with complete images, zero overflow and zero console errors.",
+  "screenshotVerification": {
+    "egress": "existing Compute 2 SOCKS tunnel",
+    "ordinaryPublicAccess": true,
+    "assetInterception": false,
+    "authorizationBypass": false,
+    "tunnelClosed": true
+  },
+  "signing": "disabled; no mainnet, wallet creation or faucet actions"
+}

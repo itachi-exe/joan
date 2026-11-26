@@ -1,0 +1,13 @@
+{
+  "restartReadbackEqual": true,
+  "reports": 1,
+  "ledgerEntries": 0,
+  "counters": {
+    "limit:commissions:20783": "2",
+    "limit:ip:[redacted-control-client]:control:498799": "5",
+    "limit:ip:[redacted-commission-client]:commission:498799": "2",
+    "limit:llm:20783": "1"
+  },
+  "service": "active",
+  "enabled": "enabled"
+}

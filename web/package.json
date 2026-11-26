@@ -1,0 +1,20 @@
+{
+  "name": "joan-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "/usr/bin/python3 scripts/integration.py",
+    "typecheck": "tsc --noEmit",
+    "test:swipe": "/usr/bin/python3 scripts/swipe.py"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.9"
+  }
+}

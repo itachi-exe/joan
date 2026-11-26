@@ -1,0 +1,12 @@
+[
+  {
+    "asset": "/assets/index-CguSae0r.js",
+    "sha256": "d30cea87b290a8a6cdcc945e2824a0c7b900dbaa2cccea9b8e995778f77f571b",
+    "matchesLocalProductionBuild": true
+  },
+  {
+    "asset": "/assets/index-mwf7k0gv.css",
+    "sha256": "e062da793e39def6b4eb4c9f99771494c2f9e84efb392a998de0d62599b46227",
+    "matchesLocalProductionBuild": true
+  }
+]

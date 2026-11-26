@@ -1,0 +1,175 @@
+
+> joan-web@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 15 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.98 kB │ gzip:  0.50 kB
+dist/assets/index-pYZVIghb.css  36.43 kB │ gzip:  8.81 kB
+dist/assets/index-BGQ3FtuD.js   55.95 kB │ gzip: 19.84 kB
+✓ built in 631ms
+
+> joan-web@0.1.0 typecheck
+> tsc --noEmit
+
+
+> joan-web@0.1.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /opt/hermes/projects/hackathon-sprint/joan/web
+
+ ✓ tests/desk.test.ts (3 tests) 22ms
+ ✓ tests/research.test.ts (13 tests) 40ms
+ ✓ tests/store.test.ts (13 tests) 26ms
+ ✓ tests/ledger.test.ts (6 tests) 10ms
+
+ Test Files  4 passed (4)
+      Tests  35 passed (35)
+   Start at  16:54:13
+   Duration  1.09s (transform 390ms, setup 0ms, collect 569ms, tests 98ms, environment 1ms, prepare 526ms)
+
+
+> joan-web@0.1.0 test:e2e
+> /usr/bin/python3 scripts/integration.py
+
+PASS 390 actual empty API has commissioning CTA
+PASS 390 online empty edition never uses sample stories
+PASS 1440 actual empty API has commissioning CTA
+PASS 1440 online empty edition never uses sample stories
+PASS mobile entrance zero overflow
+PASS mobile sound control stays labelled
+PASS mobile typed entrance moment
+PASS mobile typewriter and paper audio sources scheduled
+PASS mobile front zero overflow
+PASS mobile server reports replace samples
+PASS mobile server mock provenance retained
+PASS mobile real wire reports
+PASS mobile right column furniture
+PASS mobile section filter
+PASS mobile dispatch zero overflow
+PASS mobile report attribution
+PASS mobile dispatch furniture
+PASS mobile dispatch-body zero overflow
+PASS mobile receipt zero overflow
+PASS mobile mock receipt not explorer
+PASS mobile page turn
+PASS mobile archives zero overflow
+PASS mobile validation
+PASS mobile commission zero overflow
+PASS mobile published zero overflow
+PASS mobile stable idempotency header
+PASS mobile report is API persisted
+PASS mobile archives survive cleared browser storage
+PASS mobile dashboard zero overflow
+PASS mobile permissions zero overflow
+PASS mobile allowed buy adds receipt
+PASS mobile ledger zero overflow
+PASS mobile blocked buy truthful layer
+PASS mobile SDK vs chain explanation
+PASS mobile blocked zero overflow
+PASS mobile revoke persisted
+PASS mobile revoked buy refused
+PASS mobile revoked zero overflow
+PASS mobile revoked reload
+PASS mobile bounded regrant
+PASS mobile about zero overflow
+PASS mobile 90s zero overflow
+PASS mobile no failed images
+PASS mobile zero application/console errors except expected policy HTTP409
+PASS mobile exactly two handled policy refusals
+PASS desktop entrance zero overflow
+PASS desktop sound control stays labelled
+PASS desktop typed entrance moment
+PASS desktop typewriter and paper audio sources scheduled
+PASS desktop front zero overflow
+PASS desktop server reports replace samples
+PASS desktop server mock provenance retained
+PASS desktop real wire reports
+PASS desktop right column furniture
+PASS desktop section filter
+PASS desktop dispatch zero overflow
+PASS desktop report attribution
+PASS desktop dispatch furniture
+PASS desktop dispatch-body zero overflow
+PASS desktop receipt zero overflow
+PASS desktop mock receipt not explorer
+PASS desktop page turn
+PASS desktop archives zero overflow
+PASS desktop validation
+PASS desktop commission zero overflow
+PASS desktop published zero overflow
+PASS desktop stable idempotency header
+PASS desktop report is API persisted
+PASS desktop archives survive cleared browser storage
+PASS desktop dashboard zero overflow
+PASS desktop permissions zero overflow
+PASS desktop allowed buy adds receipt
+PASS desktop ledger zero overflow
+PASS desktop blocked buy truthful layer
+PASS desktop SDK vs chain explanation
+PASS desktop blocked zero overflow
+PASS desktop revoke persisted
+PASS desktop revoked buy refused
+PASS desktop revoked zero overflow
+PASS desktop revoked reload
+PASS desktop bounded regrant
+PASS desktop about zero overflow
+PASS desktop 90s zero overflow
+PASS desktop no failed images
+PASS desktop zero application/console errors except expected policy HTTP409
+PASS desktop exactly two handled policy refusals
+PASS reduced motion immediate handoff
+PASS offline/malformed API labelled sample fallback
+PASS compiled API restart preserves reports
+PASS compiled API restart preserves balance and ledger
+PASS: 90 real API/browser/restart assertions. Evidence: /opt/hermes/projects/hackathon-sprint/joan/web/evidence. Sheets: /opt/hermes/projects/hackathon-sprint/joan/web/shots/wednesday
+
+> joan-web@0.1.0 test:swipe
+> /usr/bin/python3 scripts/swipe.py
+
+{
+  "start": {
+    "left": 0,
+    "hash": "#/story/7eb18ba7-54ac-4911-be1f-3915eb756939",
+    "dot": 0
+  },
+  "left1": {
+    "left": 390,
+    "hash": "#/story/ebe7054f-4845-4921-a1b6-8a63a2cc9a98",
+    "dot": 1
+  },
+  "left2": {
+    "left": 780,
+    "hash": "#/story/30ee41ef-ce88-4c6e-b62b-dbb557bcd107",
+    "dot": 2
+  },
+  "right": {
+    "left": 390,
+    "hash": "#/story/ebe7054f-4845-4921-a1b6-8a63a2cc9a98",
+    "dot": 1
+  },
+  "verticalScroll": 622,
+  "documentWidth": 390,
+  "consoleErrors": []
+}
+PASS: CDP left, left, right, vertical swipe; zero console errors; zero overflow
+[
+  {
+    "reference": "/opt/hermes/projects/hackathon-sprint/joan/inspo/gazette-pinterest.jpeg",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "comparison": "/opt/hermes/projects/hackathon-sprint/joan/web/shots/comparisons/gazette-pinterest-all-compositions.jpg",
+    "views": [
+      "front",
+      "dispatch-body",
+      "archives"
+    ]
+  }
+]
+PASS: all 1 supplied inspiration images paired with three implemented compositions

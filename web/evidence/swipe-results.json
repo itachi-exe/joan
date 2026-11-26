@@ -1,0 +1,25 @@
+{
+  "start": {
+    "left": 0,
+    "hash": "#/story/c2103bc0-81b1-4456-9126-21b28bc0acc6",
+    "dot": 0
+  },
+  "left1": {
+    "left": 390,
+    "hash": "#/story/7e3cf225-50b9-4809-a4ac-4fe8e11d6a6e",
+    "dot": 1
+  },
+  "left2": {
+    "left": 780,
+    "hash": "#/story/0f99974b-4d3c-4337-a1dd-02afae870aad",
+    "dot": 2
+  },
+  "right": {
+    "left": 390,
+    "hash": "#/story/7e3cf225-50b9-4809-a4ac-4fe8e11d6a6e",
+    "dot": 1
+  },
+  "verticalScroll": 656,
+  "documentWidth": 390,
+  "consoleErrors": []
+}

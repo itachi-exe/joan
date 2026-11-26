@@ -1,0 +1,15 @@
+[
+  {
+    "reference": "/opt/hermes/projects/hackathon-sprint/joan/inspo/gazette-pinterest.jpeg",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "comparison": "/opt/hermes/projects/hackathon-sprint/joan/web/shots/comparisons/gazette-pinterest-all-compositions.jpg",
+    "views": [
+      "front",
+      "dispatch-body",
+      "archives"
+    ]
+  }
+]

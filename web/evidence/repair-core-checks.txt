@@ -1,0 +1,239 @@
+
+> joan-agent@1.0.0 build
+> tsc -p tsconfig.json
+
+
+> joan-agent@1.0.0 typecheck
+> tsc --noEmit
+
+
+> joan-agent@1.0.0 test
+> tsx --test test/*.test.ts
+
+TAP version 13
+# (node:1589512) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Altana mock distinguishes SDK x402 cap from execute onchain policy refusals
+ok 1 - Altana mock distinguishes SDK x402 cap from execute onchain policy refusals
+  ---
+  duration_ms: 5.788538
+  type: 'test'
+  ...
+# Subtest: grant validates explicit cap, allowlist, expiry and revocation blocks both rails
+ok 2 - grant validates explicit cap, allowlist, expiry and revocation blocks both rails
+  ---
+  duration_ms: 3.285638
+  type: 'test'
+  ...
+# Subtest: expiry refusal uses simulated signature checker and execute layers
+ok 3 - expiry refusal uses simulated signature checker and execute layers
+  ---
+  duration_ms: 1.529969
+  type: 'test'
+  ...
+# Subtest: mock Celo Buy duplicate request returns one durable settlement
+ok 4 - mock Celo Buy duplicate request returns one durable settlement
+  ---
+  duration_ms: 8.715055
+  type: 'test'
+  ...
+# Subtest: live wallet configuration fails safely without signing, funding, grant or revoke
+ok 5 - live wallet configuration fails safely without signing, funding, grant or revoke
+  ---
+  duration_ms: 3.111854
+  type: 'test'
+  ...
+# Subtest: live Celo Buy URL never signs or makes a real purchase
+ok 6 - live Celo Buy URL never signs or makes a real purchase
+  ---
+  duration_ms: 2.720855
+  type: 'test'
+  ...
+# Subtest: mock search and LLM are deterministic and label unsupported claims
+ok 7 - mock search and LLM are deterministic and label unsupported claims
+  ---
+  duration_ms: 2.729873
+  type: 'test'
+  ...
+# Subtest: live search adapter parses public sources without inventing corroboration
+ok 8 - live search adapter parses public sources without inventing corroboration
+  ---
+  duration_ms: 66.818518
+  type: 'test'
+  ...
+# Subtest: live LLM validates JSON response and rejects malformed provider responses
+ok 9 - live LLM validates JSON response and rejects malformed provider responses
+  ---
+  duration_ms: 1.511154
+  type: 'test'
+  ...
+# Subtest: provider failures surface rather than silently replacing real research with mocks
+ok 10 - provider failures surface rather than silently replacing real research with mocks
+  ---
+  duration_ms: 1.368537
+  type: 'test'
+  ...
+# Subtest: switching adapter configuration never relabels old mock receipts as live
+ok 11 - switching adapter configuration never relabels old mock receipts as live
+  ---
+  duration_ms: 3.27125
+  type: 'test'
+  ...
+# Subtest: budget validation rejects NaN, negatives, excessive precision and cap above $10
+ok 12 - budget validation rejects NaN, negatives, excessive precision and cap above $10
+  ---
+  duration_ms: 0.501894
+  type: 'test'
+  ...
+# (node:1589513) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: attempt RPC evaluates real policy without treating domain refusal as transport failure
+ok 13 - attempt RPC evaluates real policy without treating domain refusal as transport failure
+  ---
+  duration_ms: 148.663241
+  type: 'test'
+  ...
+# Subtest: HTTP main flow: assignment, report, archive, wallet, permissions and ledger
+ok 14 - HTTP main flow: assignment, report, archive, wallet, permissions and ledger
+  ---
+  duration_ms: 49.863799
+  type: 'test'
+  ...
+# Subtest: concurrent duplicate HTTP commissions share one report and one payment
+ok 15 - concurrent duplicate HTTP commissions share one report and one payment
+  ---
+  duration_ms: 37.852416
+  type: 'test'
+  ...
+# Subtest: HTTP grant/revoke persists policy and blocks subsequent paid assignment
+ok 16 - HTTP grant/revoke persists policy and blocks subsequent paid assignment
+  ---
+  duration_ms: 18.781148
+  type: 'test'
+  ...
+# Subtest: HTTP low-budget assignment uses free research and no purchase
+ok 17 - HTTP low-budget assignment uses free research and no purchase
+  ---
+  duration_ms: 8.123485
+  type: 'test'
+  ...
+# Subtest: HTTP validation: invalid input, malformed JSON, size, media type, origins and 404
+ok 18 - HTTP validation: invalid input, malformed JSON, size, media type, origins and 404
+  ---
+  duration_ms: 24.495136
+  type: 'test'
+  ...
+# Subtest: workflow failure after purchase resumes with receipt and no duplicate settlement
+ok 19 - workflow failure after purchase resumes with receipt and no duplicate settlement
+  ---
+  duration_ms: 10.89229
+  type: 'test'
+  ...
+# (node:1589519) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: allowance: exact assignment cap allowed, further reservation blocked
+ok 20 - allowance: exact assignment cap allowed, further reservation blocked
+  ---
+  duration_ms: 7.055256
+  type: 'test'
+  ...
+# Subtest: persistent session cap accounts for settled purchases and reservations
+ok 21 - persistent session cap accounts for settled purchases and reservations
+  ---
+  duration_ms: 2.622232
+  type: 'test'
+  ...
+# Subtest: duplicate reservation and settlement are idempotent; changed payload conflicts
+ok 22 - duplicate reservation and settlement are idempotent; changed payload conflicts
+  ---
+  duration_ms: 2.414746
+  type: 'test'
+  ...
+# Subtest: unknown, stale, invalid and insufficient balance all fail closed
+ok 23 - unknown, stale, invalid and insufficient balance all fail closed
+  ---
+  duration_ms: 4.950667
+  type: 'test'
+  ...
+# Subtest: pending reservations reduce balance available for other purchases
+ok 24 - pending reservations reduce balance available for other purchases
+  ---
+  duration_ms: 2.268083
+  type: 'test'
+  ...
+# Subtest: two SQLite connections cannot over-reserve assignment allowance
+ok 25 - two SQLite connections cannot over-reserve assignment allowance
+  ---
+  duration_ms: 36.84525
+  type: 'test'
+  ...
+# Subtest: restart reconciles crash after settlement without repaying or losing spend
+ok 26 - restart reconciles crash after settlement without repaying or losing spend
+  ---
+  duration_ms: 84.464672
+  type: 'test'
+  ...
+# Subtest: restart retains unresolved reservations and refuses automatic repurchase
+ok 27 - restart retains unresolved reservations and refuses automatic repurchase
+  ---
+  duration_ms: 47.393451
+  type: 'test'
+  ...
+# Subtest: settlement uncertainty is never silently retried
+ok 28 - settlement uncertainty is never silently retried
+  ---
+  duration_ms: 2.348483
+  type: 'test'
+  ...
+# Subtest: invalid monetary amounts are rejected
+ok 29 - invalid monetary amounts are rejected
+  ---
+  duration_ms: 1.393045
+  type: 'test'
+  ...
+# Subtest: assignment foreign key prevents orphan spending
+ok 30 - assignment foreign key prevents orphan spending
+  ---
+  duration_ms: 0.817692
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1223.957136
+
+> joan-agent@1.0.0 demo:allowed
+> tsx src/demo.ts allowed
+
+(node:1589574) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"demo":"allowed","outcome":"ALLOWED","reportId":"85a9df52-14f3-4d33-a1f2-e201bdd7ab13","spending":{"currency":"USDC","amountMicros":5000,"amount":0.005,"mode":"mock"},"receipt":"mock_998e390d5a7b5fcf2393040a","duplicatePayment":false,"label":"AI-generated report. Prepared by Joan.","database":"/opt/hermes/.hermes/cache/scratch/joan-demo-USkYMa/allowed.sqlite"}
+PASS: allowed mock demo(s); no wallets created, no signatures, no real spending. Evidence databases: /opt/hermes/.hermes/cache/scratch/joan-demo-USkYMa
+
+> joan-agent@1.0.0 demo:blocked
+> tsx src/demo.ts blocked
+
+(node:1589614) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"demo":"app-over-budget","outcome":"REFUSED","code":"allowance_exceeded","layer":"application","mode":"mock","realTransaction":false}
+{"demo":"x402-sdk-cap","outcome":"REFUSED","code":"sdk_spend_limit_exceeded","layer":"sdk","mode":"mock","realTransaction":false}
+{"demo":"execute-unapproved-contract","outcome":"REFUSED","code":"call_not_permitted","layer":"onchain-policy-simulation","mode":"mock","realTransaction":false}
+{"demo":"execute-over-cap","outcome":"REFUSED","code":"spend_limit_exceeded","layer":"onchain-policy-simulation","mode":"mock","realTransaction":false}
+x402 caps are client-side SDK policy. execute refusals model onchain policy; no chain revert or transaction is claimed.
+PASS: blocked mock demo(s); no wallets created, no signatures, no real spending. Evidence databases: /opt/hermes/.hermes/cache/scratch/joan-demo-EFwboJ
+
+> joan-agent@1.0.0 demo:revoke
+> tsx src/demo.ts revoke
+
+(node:1589665) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"demo":"revoke-x402","outcome":"REFUSED","code":"session_revoked","layer":"signature-checker-simulation","mode":"mock","realTransaction":false}
+{"demo":"revoke-execute","outcome":"REFUSED","code":"session_revoked","layer":"onchain-policy-simulation","mode":"mock","realTransaction":false}
+{"demo":"revoke-persists-after-restart","outcome":"REFUSED","code":"session_revoked","layer":"signature-checker-simulation","mode":"mock","realTransaction":false}
+{"demo":"revoke","persistentRevocation":true,"realTransaction":false,"database":"/opt/hermes/.hermes/cache/scratch/joan-demo-Ass7B0/revoke.sqlite"}
+PASS: revoke mock demo(s); no wallets created, no signatures, no real spending. Evidence databases: /opt/hermes/.hermes/cache/scratch/joan-demo-Ass7B0

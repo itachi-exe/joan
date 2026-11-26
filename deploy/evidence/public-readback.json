@@ -1,0 +1,45 @@
+{
+  "health": {
+    "ok": true,
+    "mode": "mock",
+    "demoData": true,
+    "liveSigningEnabled": false
+  },
+  "wallet": {
+    "mode": "mock",
+    "demoData": true,
+    "balanceMicros": 10000000,
+    "session": {
+      "id": "mock-session",
+      "capMicros": 10000000,
+      "allowlist": [
+        "0xcebA9300f2b948710d2653dD7B07f33A8B32118C"
+      ],
+      "expiresAt": 1795764708121,
+      "revoked": false,
+      "executeSpentMicros": 0
+    },
+    "permissionsVerified": true,
+    "x402CapEnforcement": "SDK/client-side only; not onchain",
+    "liveSigningEnabled": false
+  },
+  "ledger": {
+    "mode": "mock",
+    "demoData": true,
+    "entries": []
+  },
+  "report": {
+    "id": "80fbc2fd-e34c-4beb-8024-22d0a566762c",
+    "origin": "live",
+    "demoData": false,
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc9110.txt"
+    ],
+    "researchSpending": {
+      "currency": "USDC",
+      "amountMicros": 0,
+      "amount": 0,
+      "mode": "live"
+    }
+  }
+}

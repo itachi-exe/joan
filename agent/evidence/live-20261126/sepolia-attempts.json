@@ -1,0 +1,101 @@
+[
+  {
+    "at": "2026-11-26T07:13:10.452Z",
+    "chainId": 11142220,
+    "step": "addresses",
+    "result": {
+      "admin": "0x0B79D397cdF83af31e945aA52a2b91E37DBDcF10",
+      "wallet": "0x0B79D397cdF83af31e945aA52a2b91E37DBDcF10",
+      "faucet": "https://gateway.usebuy.ai/v1/sandbox/fund"
+    }
+  },
+  {
+    "at": "2026-11-26T07:13:11.702Z",
+    "chainId": 11142220,
+    "step": "sandbox offer",
+    "result": {
+      "network": "eip155:11142220",
+      "asset": "0x01C5C0122039549AD1493B8220cABEdD739BC44E",
+      "amountAtomic": "5000",
+      "payTo": "0x20faAca5F980E29639A0FCC6dcA6988E18ed333B",
+      "token": "USDC(sepolia)",
+      "rail": "eip3009"
+    }
+  },
+  {
+    "at": "2026-11-26T07:13:11.869Z",
+    "chainId": 11142220,
+    "step": "USDC balance before",
+    "result": "0"
+  },
+  {
+    "at": "2026-11-26T07:13:13.903Z",
+    "chainId": 11142220,
+    "step": "faucet grant",
+    "result": {
+      "txHash": "0xc920ff357d200a7cf4f7e9db9e55d88ceedaaef4e561a9d526f3a0ec138010ce",
+      "amount": "1000000"
+    }
+  },
+  {
+    "at": "2026-11-26T07:13:14.247Z",
+    "chainId": 11142220,
+    "step": "USDC balance after",
+    "result": "0"
+  },
+  {
+    "at": "2026-11-26T07:13:14.248Z",
+    "chainId": 11142220,
+    "step": "BLOCKED",
+    "result": {
+      "stage": "faucet",
+      "message": "Faucet balance insufficient for bounded proof"
+    }
+  },
+  {
+    "at": "2026-11-26T07:14:09.724Z",
+    "chainId": 11142220,
+    "step": "addresses",
+    "result": {
+      "admin": "0x0B79D397cdF83af31e945aA52a2b91E37DBDcF10",
+      "wallet": "0x0B79D397cdF83af31e945aA52a2b91E37DBDcF10",
+      "faucet": "https://gateway.usebuy.ai/v1/sandbox/fund"
+    }
+  },
+  {
+    "at": "2026-11-26T07:14:10.778Z",
+    "chainId": 11142220,
+    "step": "sandbox offer",
+    "result": {
+      "network": "eip155:11142220",
+      "asset": "0x01C5C0122039549AD1493B8220cABEdD739BC44E",
+      "amountAtomic": "5000",
+      "payTo": "0x20faAca5F980E29639A0FCC6dcA6988E18ed333B",
+      "token": "USDC(sepolia)",
+      "rail": "eip3009"
+    }
+  },
+  {
+    "at": "2026-11-26T07:14:10.946Z",
+    "chainId": 11142220,
+    "step": "USDC balance before",
+    "result": "1000000"
+  },
+  {
+    "at": "2026-11-26T07:14:13.515Z",
+    "chainId": 11142220,
+    "step": "grant fee quote",
+    "result": {
+      "received": true
+    }
+  },
+  {
+    "at": "2026-11-26T07:14:15.536Z",
+    "chainId": 11142220,
+    "step": "BLOCKED",
+    "result": {
+      "stage": "grantSession",
+      "message": "Not enough S-CELO for the registration: needs about 0.389934 S-CELO, you have 0 S-CELO. Add S-CELO on Celo Sepolia Testnet."
+    }
+  }
+]

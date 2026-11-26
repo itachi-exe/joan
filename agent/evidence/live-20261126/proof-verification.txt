@@ -1,0 +1,47 @@
+$ npm test
+
+> joan-payment-proof@0.0.1 test
+> tsx src/selftest.ts && tsx --test src/sepolia.test.ts
+
+selftest ok
+TAP version 13
+# Subtest: faucet confirmation waits for RPC balance visibility but stops on persistent zero
+ok 1 - faucet confirmation waits for RPC balance visibility but stops on persistent zero
+  ---
+  duration_ms: 2.839617
+  type: 'test'
+  ...
+# Subtest: Sepolia proof requires exact network switch and refuses repository key storage
+ok 2 - Sepolia proof requires exact network switch and refuses repository key storage
+  ---
+  duration_ms: 1.152585
+  type: 'test'
+  ...
+# Subtest: faucet sends address only and refuses redirects and malformed grants
+ok 3 - faucet sends address only and refuses redirects and malformed grants
+  ---
+  duration_ms: 36.661298
+  type: 'test'
+  ...
+# Subtest: only sandbox USDC EIP-3009 offer can be selected, never mainnet
+ok 4 - only sandbox USDC EIP-3009 offer can be selected, never mainnet
+  ---
+  duration_ms: 0.603223
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2578.9795
+EXIT 0
+$ npm run typecheck
+
+> joan-payment-proof@0.0.1 typecheck
+> tsc --noEmit
+
+EXIT 0

@@ -1,0 +1,30 @@
+
+> joan-web@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 15 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.98 kB │ gzip:  0.50 kB
+dist/assets/index-kOH0qzGU.css  36.41 kB │ gzip:  8.81 kB
+dist/assets/index-8YRnXA09.js   55.20 kB │ gzip: 19.58 kB
+✓ built in 432ms
+
+> joan-web@0.1.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /opt/hermes/projects/hackathon-sprint/joan/web
+
+ ✓ tests/desk.test.ts (3 tests) 16ms
+ ✓ tests/research.test.ts (13 tests) 32ms
+ ✓ tests/store.test.ts (13 tests) 18ms
+ ✓ tests/ledger.test.ts (6 tests) 11ms
+
+ Test Files  4 passed (4)
+      Tests  35 passed (35)
+   Start at  16:35:45
+   Duration  880ms (transform 347ms, setup 0ms, collect 543ms, tests 77ms, environment 1ms, prepare 431ms)
+

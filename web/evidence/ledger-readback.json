@@ -1,0 +1,114 @@
+{
+  "mode": "mock",
+  "demoData": true,
+  "entries": [
+    {
+      "key": "21d6473b-6abd-47cb-9672-7b7b7c470784:research:1",
+      "assignmentId": "21d6473b-6abd-47cb-9672-7b7b7c470784",
+      "query": "Trace the provenance of a public transit fare claim",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "21d0ea5dba4474fb56bfdc0269dc49b230c988811f9974c73fac19c0d7bacb06",
+      "state": "settled",
+      "receipt": "mock_2a681454166424e82e7667c9",
+      "error": null,
+      "createdAt": "2026-11-26T07:21:50.305Z"
+    },
+    {
+      "key": "141d793a-3c98-4b43-b519-816a59dd2a01:research:1",
+      "assignmentId": "141d793a-3c98-4b43-b519-816a59dd2a01",
+      "query": "Investigate the original public water tariff schedule",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "033cebba259d539263d52e2fead36683e60cf905392fe97344fa48c062c3e351",
+      "state": "settled",
+      "receipt": "mock_c658810359cb5d9b43c30f76",
+      "error": null,
+      "createdAt": "2026-11-26T07:21:50.326Z"
+    },
+    {
+      "key": "e2ed3cb7-9991-48ed-9f67-b27653f8f590:research:1",
+      "assignmentId": "e2ed3cb7-9991-48ed-9f67-b27653f8f590",
+      "query": "Check the original battery recall notice and its date",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "1d1e55f2a3a5189a317a214cf2012a1f01453c6765b52b79d3af791c7c6d0630",
+      "state": "settled",
+      "receipt": "mock_09ec3738fff1cb77a0a8594b",
+      "error": null,
+      "createdAt": "2026-11-26T07:21:50.353Z"
+    },
+    {
+      "key": "dd929cc5-8a68-48f5-9927-6a2ea0ed4dc2:research:1",
+      "assignmentId": "dd929cc5-8a68-48f5-9927-6a2ea0ed4dc2",
+      "query": "Trace the source of a public library funding claim",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "24c72397d0044ebe2e47114ccd4b92a8ea440cbc60f45a4967d59886a4a88f96",
+      "state": "settled",
+      "receipt": "mock_02c99d0edc1ca57311b0b603",
+      "error": null,
+      "createdAt": "2026-11-26T07:21:50.404Z"
+    },
+    {
+      "key": "c25f7b10-153d-4237-b86a-66f420a90182:research:1",
+      "assignmentId": "c25f7b10-153d-4237-b86a-66f420a90182",
+      "query": "Verify a public housing planning notice",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "65dda2455bfb66cffe25a8723dd80fb8bf3f6b51cc9a2949072d5fb465b2da4b",
+      "state": "settled",
+      "receipt": "mock_3c4832911f089c6f38cca419",
+      "error": null,
+      "createdAt": "2026-11-26T07:21:50.444Z"
+    },
+    {
+      "key": "49fd3551-d9df-4116-a855-4da83828c560:research:1",
+      "assignmentId": "49fd3551-d9df-4116-a855-4da83828c560",
+      "query": "Check public transit fare provenance for the mobile edition",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "dee42400f89ef62fa98b7e551bdac41563c1ab648dac8e93b89059549c0d05f0",
+      "state": "settled",
+      "receipt": "mock_966b2448fac39dfaa2459111",
+      "error": null,
+      "createdAt": "2026-11-26T07:22:06.679Z"
+    },
+    {
+      "key": "7e18fad3-1571-42bf-8e47-668b54ed7e0c:research:1",
+      "assignmentId": "7e18fad3-1571-42bf-8e47-668b54ed7e0c",
+      "query": "Check the provenance of a public transit fare claim",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "e6a685b4b31dc07642c42f5d609be6a3f1da11f8e6b63c6bec94f1bbb92b8e63",
+      "state": "settled",
+      "receipt": "mock_30b5ac4645db99c956fafda7",
+      "error": null,
+      "createdAt": "2026-11-26T07:22:12.044Z"
+    },
+    {
+      "key": "f406697c-e7f6-4b22-a986-eb60dbb714c8:research:1",
+      "assignmentId": "f406697c-e7f6-4b22-a986-eb60dbb714c8",
+      "query": "Check public transit fare provenance for the desktop edition",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "72e0767318d8af08d64db937f33591a1ba845f2982a6372644dcbde1cc7dc271",
+      "state": "settled",
+      "receipt": "mock_4cbbe3f2e6eca9062b0d7e04",
+      "error": null,
+      "createdAt": "2026-11-26T07:22:40.694Z"
+    },
+    {
+      "key": "71250723-54bd-45e3-949c-3ffe7d7673e0:research:1",
+      "assignmentId": "71250723-54bd-45e3-949c-3ffe7d7673e0",
+      "query": "Check the provenance of a public transit fare claim",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "e4267a1646b8615ab2206519208418d347f1339271e9cf1510c94a4d088b1cc0",
+      "state": "settled",
+      "receipt": "mock_844ff3e3341d84e1d5fa67d8",
+      "error": null,
+      "createdAt": "2026-11-26T07:22:46.782Z"
+    }
+  ]
+}

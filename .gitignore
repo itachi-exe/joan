@@ -1,0 +1,22 @@
+# Dependencies, credentials, databases and local browser state.
+node_modules/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-wal
+*.db-shm
+scratch-archive/
+browser-profile/
+browser-profiles/
+.browser-profile/
+.playwright/
+playwright-profile/
+user-data-dir/
+# The owner chooses where the finished film is hosted. Never publish it in git.
+docs/demo/*.mp4
+docs/demo/*.webm

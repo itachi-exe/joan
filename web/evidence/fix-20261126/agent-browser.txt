@@ -1,0 +1,65 @@
+PASS mobile entrance: zero horizontal overflow
+PASS mobile entrance opens real front page
+PASS mobile front: zero horizontal overflow
+PASS mobile section filter
+PASS mobile dispatch: zero horizontal overflow
+PASS mobile receipt opens
+PASS mobile receipt: zero horizontal overflow
+PASS mobile archives: zero horizontal overflow
+PASS mobile existing web mock commission publishes
+PASS mobile existing web mock report has demo label
+PASS mobile report has required attribution
+PASS mobile commission: zero horizontal overflow
+PASS mobile existing web commission survives reload
+PASS mobile about: zero horizontal overflow
+PASS mobile feature: zero horizontal overflow
+PASS mobile browser API grants bounded mock permissions
+PASS mobile browser API creates report
+PASS mobile API report marks demo provenance and spending
+PASS mobile browser API idempotency
+PASS mobile browser API reads report
+PASS mobile browser API assignment published
+PASS mobile browser API lists archive
+PASS mobile browser API wallet readback
+PASS mobile browser API settled ledger
+PASS mobile browser API revoke
+PASS mobile browser API revoke readback
+PASS mobile browser API reconcile
+PASS mobile revoke blocks payment
+PASS mobile zero browser console/page errors
+PASS mobile zero unexpected HTTP errors
+PASS desktop entrance: zero horizontal overflow
+PASS desktop entrance opens real front page
+PASS desktop front: zero horizontal overflow
+PASS desktop section filter
+PASS desktop dispatch: zero horizontal overflow
+PASS desktop receipt opens
+PASS desktop receipt: zero horizontal overflow
+PASS desktop archives: zero horizontal overflow
+PASS desktop existing web mock commission publishes
+PASS desktop existing web mock report has demo label
+PASS desktop report has required attribution
+PASS desktop commission: zero horizontal overflow
+PASS desktop existing web commission survives reload
+PASS desktop about: zero horizontal overflow
+PASS desktop feature: zero horizontal overflow
+PASS desktop browser API grants bounded mock permissions
+PASS desktop browser API creates report
+PASS desktop API report marks demo provenance and spending
+PASS desktop browser API idempotency
+PASS desktop browser API reads report
+PASS desktop browser API assignment published
+PASS desktop browser API lists archive
+PASS desktop browser API wallet readback
+PASS desktop browser API settled ledger
+PASS desktop browser API revoke
+PASS desktop browser API revoke readback
+PASS desktop browser API reconcile
+PASS desktop revoke blocks payment
+PASS desktop zero browser console/page errors
+PASS desktop zero unexpected HTTP errors
+PASS compiled process restart preserves two reports
+PASS compiled process restart preserves revocation
+PASS compiled process restart preserves two settlements without duplicate pay
+PASS: 63 browser/restart assertions. Sheets: /opt/hermes/projects/hackathon-sprint/joan/agent/shots/mobile-sheet.jpg and /opt/hermes/projects/hackathon-sprint/joan/agent/shots/desktop-sheet.jpg
+EXIT 0

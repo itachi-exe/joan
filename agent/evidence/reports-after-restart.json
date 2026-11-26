@@ -1,0 +1,152 @@
+[
+  {
+    "headline": "Checking the claim: Check this public transit fare claim using original sources",
+    "summary": "A deterministic demonstration dispatch. The assignment is recorded, but its claims have not been independently verified.",
+    "body": [
+      "The editor asked: Check this public transit fare claim using original sources",
+      "Joan separates the submitted claim, public-source references and supplementary research. Demo fixtures are not evidence.",
+      "Demo paid research for \u201cCheck this public transit fare claim using original sources\u201d. This fixture is not a verified finding. No real purchase occurred."
+    ],
+    "know": [
+      "The assignment and its spending limit were recorded.",
+      "Research provenance and purchase receipts are attached. No fixture establishes the truth of the assignment."
+    ],
+    "unclear": [
+      "Whether the submitted claim is accurate.",
+      "Which original records independently support the claim.",
+      "Whether repeated reports rely on the same original source.",
+      "One or more research or drafting adapters used demo data."
+    ],
+    "confidence": {
+      "level": "low",
+      "reason": "Includes demo data. Claims are not independently verified."
+    },
+    "id": "c663b8ce-9f72-4486-a0f8-3f89da52851e",
+    "assignmentId": "c663b8ce-9f72-4486-a0f8-3f89da52851e",
+    "sample": false,
+    "origin": "mock",
+    "demoData": true,
+    "label": "AI-generated report. Prepared by Joan.",
+    "section": "Commissioned",
+    "kicker": "Demo data",
+    "date": "2026-11-26",
+    "readMinutes": 2,
+    "art": "press",
+    "credit": "ILLUSTRATION: JOAN",
+    "sources": [
+      {
+        "label": "Editor assignment",
+        "kind": "Claim",
+        "note": "Submitted claim, not independently verified",
+        "url": "",
+        "excerpt": "Check this public transit fare claim using original sources",
+        "mode": "mock"
+      },
+      {
+        "label": "Public-source research fixture",
+        "kind": "Original",
+        "note": "Demo fixture only. Link is a public reference, not evidence for this assignment.",
+        "url": "https://www.reuters.com/fact-check/",
+        "excerpt": "No public page was fetched in mock mode. Original documents must be found before publication as verified news.",
+        "mode": "mock"
+      },
+      {
+        "label": "Supplementary Celo Buy research",
+        "kind": "Claim",
+        "note": "Demo paid research for \u201cCheck this public transit fare claim using original sources\u201d. This fixture is not a verified finding. No real purchase occurred.",
+        "url": "",
+        "mode": "mock"
+      }
+    ],
+    "spending": [
+      {
+        "item": "Supplementary research",
+        "amount": 0.005,
+        "amountMicros": 5000,
+        "tx": "mock_c0c7b7f5a105da438742fa7b",
+        "mode": "mock"
+      }
+    ],
+    "researchSpending": {
+      "currency": "USDC",
+      "amountMicros": 5000,
+      "amount": 0.005,
+      "mode": "mock"
+    }
+  },
+  {
+    "headline": "Checking the claim: Check this public transit fare claim using original sources",
+    "summary": "A deterministic demonstration dispatch. The assignment is recorded, but its claims have not been independently verified.",
+    "body": [
+      "The editor asked: Check this public transit fare claim using original sources",
+      "Joan separates the submitted claim, public-source references and supplementary research. Demo fixtures are not evidence.",
+      "Demo paid research for \u201cCheck this public transit fare claim using original sources\u201d. This fixture is not a verified finding. No real purchase occurred."
+    ],
+    "know": [
+      "The assignment and its spending limit were recorded.",
+      "Research provenance and purchase receipts are attached. No fixture establishes the truth of the assignment."
+    ],
+    "unclear": [
+      "Whether the submitted claim is accurate.",
+      "Which original records independently support the claim.",
+      "Whether repeated reports rely on the same original source.",
+      "One or more research or drafting adapters used demo data."
+    ],
+    "confidence": {
+      "level": "low",
+      "reason": "Includes demo data. Claims are not independently verified."
+    },
+    "id": "80edcf9a-18de-4cf4-a36e-eeb78da678cf",
+    "assignmentId": "80edcf9a-18de-4cf4-a36e-eeb78da678cf",
+    "sample": false,
+    "origin": "mock",
+    "demoData": true,
+    "label": "AI-generated report. Prepared by Joan.",
+    "section": "Commissioned",
+    "kicker": "Demo data",
+    "date": "2026-11-26",
+    "readMinutes": 2,
+    "art": "press",
+    "credit": "ILLUSTRATION: JOAN",
+    "sources": [
+      {
+        "label": "Editor assignment",
+        "kind": "Claim",
+        "note": "Submitted claim, not independently verified",
+        "url": "",
+        "excerpt": "Check this public transit fare claim using original sources",
+        "mode": "mock"
+      },
+      {
+        "label": "Public-source research fixture",
+        "kind": "Original",
+        "note": "Demo fixture only. Link is a public reference, not evidence for this assignment.",
+        "url": "https://www.reuters.com/fact-check/",
+        "excerpt": "No public page was fetched in mock mode. Original documents must be found before publication as verified news.",
+        "mode": "mock"
+      },
+      {
+        "label": "Supplementary Celo Buy research",
+        "kind": "Claim",
+        "note": "Demo paid research for \u201cCheck this public transit fare claim using original sources\u201d. This fixture is not a verified finding. No real purchase occurred.",
+        "url": "",
+        "mode": "mock"
+      }
+    ],
+    "spending": [
+      {
+        "item": "Supplementary research",
+        "amount": 0.005,
+        "amountMicros": 5000,
+        "tx": "mock_74165c3b42af4883724ffce0",
+        "mode": "mock"
+      }
+    ],
+    "researchSpending": {
+      "currency": "USDC",
+      "amountMicros": 5000,
+      "amount": 0.005,
+      "mode": "mock"
+    }
+  }
+]

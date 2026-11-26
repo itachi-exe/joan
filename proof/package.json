@@ -1,0 +1,24 @@
+{
+  "name": "joan-payment-proof",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Joan day-one proof: Altana session key pays a Celo Buy x402 call on Celo mainnet. DRY RUN by default.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dry": "tsx src/proof.ts",
+    "test": "tsx src/selftest.ts && tsx --test src/sepolia.test.ts",
+    "sepolia": "JOAN_NETWORK=sepolia tsx src/sepolia.ts",
+    "live": "JOAN_ALLOW_MAINNET=1 tsx src/proof.ts"
+  },
+  "dependencies": {
+    "@altananetwork/sdk": "1.2.0",
+    "@celo/attribution-tags": "0.5.0",
+    "viem": "^2.45.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

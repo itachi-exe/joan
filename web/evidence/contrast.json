@@ -1,0 +1,22 @@
+[
+  {
+    "foreground": "#3a281c",
+    "background": "#f3eee5",
+    "ratio": 12.11
+  },
+  {
+    "foreground": "#786653",
+    "background": "#f3eee5",
+    "ratio": 4.75
+  },
+  {
+    "foreground": "#a94d25",
+    "background": "#f8f4ec",
+    "ratio": 5.07
+  },
+  {
+    "foreground": "#fff7ec",
+    "background": "#a94d25",
+    "ratio": 5.24
+  }
+]

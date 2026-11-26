@@ -1,0 +1,72 @@
+NOVEMBER XXV, MMXXVI FRONT PAGE DISPATCH ARCHIVES RESEARCH DESK ABOUT JOAN ED
+THE BUSINESS OF REPORTING
+RESEARCH DESK
+A BUDGET. A BOUNDARY. A PAPER TRAIL
+Connected to the persisted research API REFRESH ©
+
+RESEARCH ALLOWANCE
+
+$9.97
+
+Available simulated USDC.
+
+No wallet was created. No signature or real
+transaction is possible here
+
+El
+
+EVERY CENT
+ACCOUNTED FOR
+
+SESSION PERMISSIONS
+
+BOUNDED
+
+Session cap
+
+$0.05
+
+Expires
+
+11/25/2026, 5:48:57 PM
+
+Contract allowlist
+
+0xcebA9300£2b948710d2653dD7B07£33A8B32118C
+
+Execute spent
+
+$0.00
+
+REVOKE SESSION
+
+evocation is persisted in mock mode, Live signing is
+disabled.
+
+THREE DESK DEMONSTRATIONS
+
+|. Allowed buy
+
+A $0.005 simulated supplement within a $0.05 assignment
+
+eap.
+RUN ALLOWED BUY
+
+Il. Blocked buy
+
+Set a $0.001 mock session cap, then request the $0.005
+
+quote. The mock SDK refuses client-side, not onehain,
+
+RUN BLOCKED BUY
+
+Ill. Revoke
+
+Re
+No real chain transaction is sent.
+
+‘TEST REVOKED BUY
+
+voke above, then check that a fresh assignment is rel
+
+fused.

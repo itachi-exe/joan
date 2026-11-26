@@ -1,0 +1,13 @@
+{
+  "mode": "mock",
+  "demoData": true,
+  "id": "mock-2f5bafca-1abe-41f5-b81e-b431d2e9cd89",
+  "capMicros": 50000,
+  "allowlist": [
+    "0xcebA9300f2b948710d2653dD7B07f33A8B32118C"
+  ],
+  "expiresAt": 1795681376727,
+  "revoked": false,
+  "executeSpentMicros": 0,
+  "x402CapEnforcement": "SDK only; execute policy simulated separately"
+}

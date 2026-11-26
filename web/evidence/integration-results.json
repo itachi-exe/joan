@@ -1,0 +1,586 @@
+[
+  {
+    "name": "390 actual empty API has commissioning CTA",
+    "passed": true
+  },
+  {
+    "name": "390 online empty edition never uses sample stories",
+    "passed": true
+  },
+  {
+    "name": "390 empty Archives explains next step",
+    "passed": true
+  },
+  {
+    "name": "390 empty Archives keeps add-clipping card",
+    "passed": true
+  },
+  {
+    "name": "1440 actual empty API has commissioning CTA",
+    "passed": true
+  },
+  {
+    "name": "1440 online empty edition never uses sample stories",
+    "passed": true
+  },
+  {
+    "name": "1440 empty Archives explains next step",
+    "passed": true
+  },
+  {
+    "name": "1440 empty Archives keeps add-clipping card",
+    "passed": true
+  },
+  {
+    "name": "mobile entrance zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile entrance readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile sound control stays labelled",
+    "passed": true
+  },
+  {
+    "name": "mobile typed entrance moment",
+    "passed": true
+  },
+  {
+    "name": "mobile typewriter and paper audio sources scheduled",
+    "passed": true
+  },
+  {
+    "name": "mobile front zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile front readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile server reports replace samples",
+    "passed": true
+  },
+  {
+    "name": "mobile front page pictures are distinct",
+    "passed": true
+  },
+  {
+    "name": "mobile server mock provenance retained",
+    "passed": true
+  },
+  {
+    "name": "mobile real wire reports",
+    "passed": true
+  },
+  {
+    "name": "mobile right column furniture",
+    "passed": true
+  },
+  {
+    "name": "mobile section filter",
+    "passed": true
+  },
+  {
+    "name": "mobile dispatch zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile dispatch stays aligned after hint timer",
+    "passed": true
+  },
+  {
+    "name": "mobile dispatch readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile dispatch has labelled dates",
+    "passed": true
+  },
+  {
+    "name": "mobile report attribution",
+    "passed": true
+  },
+  {
+    "name": "mobile dispatch furniture",
+    "passed": true
+  },
+  {
+    "name": "mobile dispatch-body zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile dispatch-body readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile receipt zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile receipt readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile mock receipt not explorer",
+    "passed": true
+  },
+  {
+    "name": "mobile page turn",
+    "passed": true
+  },
+  {
+    "name": "mobile archives zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile archives readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile validation",
+    "passed": true
+  },
+  {
+    "name": "mobile commission zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile commission readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile published zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile published readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile stable idempotency header",
+    "passed": true
+  },
+  {
+    "name": "mobile report is API persisted",
+    "passed": true
+  },
+  {
+    "name": "mobile archives survive cleared browser storage",
+    "passed": true
+  },
+  {
+    "name": "mobile dashboard zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile dashboard readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile permissions zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile permissions readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile allowed buy adds receipt",
+    "passed": true
+  },
+  {
+    "name": "mobile ledger zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile ledger readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile blocked buy truthful layer",
+    "passed": true
+  },
+  {
+    "name": "mobile blocked buy cannot debit or publish",
+    "passed": true
+  },
+  {
+    "name": "mobile SDK vs chain explanation",
+    "passed": true
+  },
+  {
+    "name": "mobile blocked zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile blocked readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile revoke persisted",
+    "passed": true
+  },
+  {
+    "name": "mobile revoked buy refused",
+    "passed": true
+  },
+  {
+    "name": "mobile revoked zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile revoked readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile revoked buy cannot debit or publish",
+    "passed": true
+  },
+  {
+    "name": "mobile commission while revoked gives reason and fix",
+    "passed": true
+  },
+  {
+    "name": "mobile revoked commission links to Desk",
+    "passed": true
+  },
+  {
+    "name": "mobile revoked commission sends no request",
+    "passed": true
+  },
+  {
+    "name": "mobile revoked commission zero console errors",
+    "passed": true
+  },
+  {
+    "name": "mobile revoked reload",
+    "passed": true
+  },
+  {
+    "name": "mobile bounded regrant",
+    "passed": true
+  },
+  {
+    "name": "mobile about zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile about readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile 90s zero overflow",
+    "passed": true
+  },
+  {
+    "name": "mobile 90s readable type floor",
+    "passed": true
+  },
+  {
+    "name": "mobile no failed images",
+    "passed": true
+  },
+  {
+    "name": "mobile zero console errors (no exemptions)",
+    "passed": true
+  },
+  {
+    "name": "mobile zero failed HTTP responses",
+    "passed": true
+  },
+  {
+    "name": "mobile actual API attempt outcomes",
+    "passed": true
+  },
+  {
+    "name": "desktop entrance zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop entrance readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop sound control stays labelled",
+    "passed": true
+  },
+  {
+    "name": "desktop typed entrance moment",
+    "passed": true
+  },
+  {
+    "name": "desktop typewriter and paper audio sources scheduled",
+    "passed": true
+  },
+  {
+    "name": "desktop front zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop front readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop server reports replace samples",
+    "passed": true
+  },
+  {
+    "name": "desktop front page pictures are distinct",
+    "passed": true
+  },
+  {
+    "name": "desktop server mock provenance retained",
+    "passed": true
+  },
+  {
+    "name": "desktop real wire reports",
+    "passed": true
+  },
+  {
+    "name": "desktop right column furniture",
+    "passed": true
+  },
+  {
+    "name": "desktop section filter",
+    "passed": true
+  },
+  {
+    "name": "desktop dispatch zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop dispatch stays aligned after hint timer",
+    "passed": true
+  },
+  {
+    "name": "desktop dispatch readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop dispatch has labelled dates",
+    "passed": true
+  },
+  {
+    "name": "desktop report attribution",
+    "passed": true
+  },
+  {
+    "name": "desktop dispatch furniture",
+    "passed": true
+  },
+  {
+    "name": "desktop dispatch-body zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop dispatch-body readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop receipt zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop receipt readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop mock receipt not explorer",
+    "passed": true
+  },
+  {
+    "name": "desktop page turn",
+    "passed": true
+  },
+  {
+    "name": "desktop archives zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop archives readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop validation",
+    "passed": true
+  },
+  {
+    "name": "desktop commission zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop commission readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop published zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop published readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop stable idempotency header",
+    "passed": true
+  },
+  {
+    "name": "desktop report is API persisted",
+    "passed": true
+  },
+  {
+    "name": "desktop archives survive cleared browser storage",
+    "passed": true
+  },
+  {
+    "name": "desktop dashboard zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop dashboard readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop permissions zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop permissions readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop allowed buy adds receipt",
+    "passed": true
+  },
+  {
+    "name": "desktop ledger zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop ledger readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop blocked buy truthful layer",
+    "passed": true
+  },
+  {
+    "name": "desktop blocked buy cannot debit or publish",
+    "passed": true
+  },
+  {
+    "name": "desktop SDK vs chain explanation",
+    "passed": true
+  },
+  {
+    "name": "desktop blocked zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop blocked readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop revoke persisted",
+    "passed": true
+  },
+  {
+    "name": "desktop revoked buy refused",
+    "passed": true
+  },
+  {
+    "name": "desktop revoked zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop revoked readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop revoked buy cannot debit or publish",
+    "passed": true
+  },
+  {
+    "name": "desktop commission while revoked gives reason and fix",
+    "passed": true
+  },
+  {
+    "name": "desktop revoked commission links to Desk",
+    "passed": true
+  },
+  {
+    "name": "desktop revoked commission sends no request",
+    "passed": true
+  },
+  {
+    "name": "desktop revoked commission zero console errors",
+    "passed": true
+  },
+  {
+    "name": "desktop revoked reload",
+    "passed": true
+  },
+  {
+    "name": "desktop bounded regrant",
+    "passed": true
+  },
+  {
+    "name": "desktop about zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop about readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop 90s zero overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop 90s readable type floor",
+    "passed": true
+  },
+  {
+    "name": "desktop no failed images",
+    "passed": true
+  },
+  {
+    "name": "desktop zero console errors (no exemptions)",
+    "passed": true
+  },
+  {
+    "name": "desktop zero failed HTTP responses",
+    "passed": true
+  },
+  {
+    "name": "desktop actual API attempt outcomes",
+    "passed": true
+  },
+  {
+    "name": "reduced motion immediate handoff",
+    "passed": true
+  },
+  {
+    "name": "offline/malformed API labelled sample fallback",
+    "passed": true
+  },
+  {
+    "name": "entire browser suite zero console errors (including empty, reduced motion, fallback)",
+    "passed": true
+  },
+  {
+    "name": "entire browser suite zero failed HTTP responses",
+    "passed": true
+  },
+  {
+    "name": "compiled API restart preserves reports",
+    "passed": true
+  },
+  {
+    "name": "compiled API restart preserves balance and ledger",
+    "passed": true
+  }
+]

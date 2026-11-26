@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-26T07:14:47.431198+00:00",
+  "url": "https://faucet.celo.org/api/faucet",
+  "request": {
+    "beneficiary": "0x0B79D397cdF83af31e945aA52a2b91E37DBDcF10",
+    "network": "celo-sepolia"
+  },
+  "httpStatus": 401,
+  "body": "{\"status\":\"Failed\",\"message\":\"invalid-input-response\"}"
+}

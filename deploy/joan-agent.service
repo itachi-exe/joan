@@ -1,0 +1,31 @@
+[Unit]
+Description=Joan public research API
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=hermes
+Group=hermes
+WorkingDirectory=/opt/hermes/projects/hackathon-sprint/joan/agent
+EnvironmentFile=/etc/joan/agent.env
+ExecStart=/usr/bin/node /opt/hermes/projects/hackathon-sprint/joan/agent/dist/src/server.js
+Restart=on-failure
+RestartSec=5
+StateDirectory=joan
+StateDirectoryMode=0700
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/var/lib/joan
+MemoryMax=384M
+TasksMax=64
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,214 @@
+{
+  "notice": "SAMPLE DATA. These stories are invented to demonstrate the layout. They are not real reporting.",
+  "stories": [
+    {
+      "id": "water-tariff",
+      "sample": true,
+      "section": "Civic",
+      "kicker": "Illustrative Dispatch",
+      "headline": "Did the Water Board Really Double Its Tariff? Tracing a Viral Claim to Its Source",
+      "summary": "A widely shared post says a regional water board doubled household rates this quarter. The board's own tariff schedule shows a smaller change, and the post traces back to a misread table.",
+      "date": "2026-11-21",
+      "readMinutes": 4,
+      "art": "waterworks",
+      "credit": "PHOTO: J. ARCHIVE",
+      "body": [
+        "At first glance the claim is simple: rates doubled. The post that started it carries a screenshot of a table with two columns of numbers, and the larger column is roughly twice the smaller one.",
+        "Joan pulled the board's published tariff schedule and found that the screenshot mixes two different things. One column is the base rate per cubic meter. The other is the base rate plus the fixed infrastructure charge, which the board has listed separately for years.",
+        "The base rate did rise. The size of the rise depends on which consumption band a household sits in, and the board's own notice gives the percentage for each band. None of them reaches one hundred percent.",
+        "Two paid research lookups were used to check whether the post was copied from an earlier claim. Both found the same screenshot circulating a week before the board's notice was published, which points to a misread of an older document."
+      ],
+      "know": [
+        "The board published a revised tariff schedule dated 3 November.",
+        "The base rate rose in every consumption band, by amounts between 6 and 19 percent in the published notice.",
+        "The screenshot in the viral post combines base rate and fixed charge in one column.",
+        "The earliest copy of the screenshot found predates the board's notice."
+      ],
+      "unclear": [
+        "Whether the fixed infrastructure charge is also scheduled to change next quarter.",
+        "Who first posted the screenshot. Three accounts share it with identical captions.",
+        "Whether any households were billed under a transitional rate not covered by the notice."
+      ],
+      "sources": [
+        {
+          "label": "Water board revised tariff schedule",
+          "kind": "Original",
+          "note": "Primary document",
+          "url": "https://example.org/sample/tariff-schedule"
+        },
+        {
+          "label": "Board notice to customers, 3 November",
+          "kind": "Original",
+          "note": "Primary document",
+          "url": "https://example.org/sample/customer-notice"
+        },
+        {
+          "label": "Viral post and screenshot",
+          "kind": "Claim",
+          "note": "Repeated, not verified",
+          "url": "https://example.org/sample/viral-post"
+        },
+        {
+          "label": "Earlier copy of the screenshot",
+          "kind": "Repeat",
+          "note": "Found by paid search",
+          "url": "https://example.org/sample/earlier-copy"
+        }
+      ],
+      "confidence": {
+        "level": "high",
+        "reason": "The claim traces to a primary document, and the discrepancy is explained by two independent checks."
+      },
+      "spending": [
+        {
+          "item": "Social search: earliest copy of screenshot",
+          "amount": 0.005,
+          "tx": "0x0000...a1f3"
+        },
+        {
+          "item": "Social search: repeat accounts and captions",
+          "amount": 0.005,
+          "tx": "0x0000...b7c2"
+        },
+        {
+          "item": "Document text extraction",
+          "amount": 0.01,
+          "tx": "0x0000...c9d0"
+        }
+      ],
+      "pullQuote": "None of them reaches one hundred percent.",
+      "caption": "The board's treatment works, from the archive. The tariff schedule itself is a plain table."
+    },
+    {
+      "id": "battery-recall",
+      "sample": true,
+      "section": "Technology",
+      "kicker": "Special Dispatch",
+      "headline": "Battery Pack Recall Rumor: One Manufacturer Notice, Three Retellings",
+      "summary": "Posts say a portable battery brand recalled every unit sold this year. The only notice found covers one production batch, and the larger claim has no origin.",
+      "date": "2026-11-19",
+      "readMinutes": 5,
+      "art": "workshop",
+      "credit": "PHOTO: J. ARCHIVE",
+      "body": [
+        "The rumor arrived in three forms. One said all units were recalled, one said all units from the last twelve months, and one said only units with a specific model code.",
+        "The manufacturer's safety page lists a single notice. It names one production batch by serial range and asks owners to stop using affected packs and contact support.",
+        "Joan bought two research lookups to find who first widened the claim. The broader versions appear to descend from a forum thread that quoted the notice and then added a sentence of its own.",
+        "A tip from a verified human, who owns an affected unit, confirmed the serial range printed on the label matches the notice. The tip did not speak to how many units exist in that range."
+      ],
+      "know": [
+        "The manufacturer posted one safety notice covering a single production batch.",
+        "The notice gives a serial range and a support contact.",
+        "A verified owner confirmed that their unit's serial number falls inside the range."
+      ],
+      "unclear": [
+        "How many units fall inside the affected batch.",
+        "Whether other batches share the same component supplier.",
+        "Whether any regulator has opened a review."
+      ],
+      "sources": [
+        {
+          "label": "Manufacturer safety notice",
+          "kind": "Original",
+          "note": "Primary document",
+          "url": "https://example.org/sample/safety-notice"
+        },
+        {
+          "label": "Forum thread that widened the claim",
+          "kind": "Repeat",
+          "note": "Adds an unsourced sentence",
+          "url": "https://example.org/sample/forum-thread"
+        },
+        {
+          "label": "Verified owner tip",
+          "kind": "Tip",
+          "note": "Paid, identity checked",
+          "url": "https://example.org/sample/owner-tip"
+        }
+      ],
+      "confidence": {
+        "level": "medium",
+        "reason": "The narrow recall is confirmed by the manufacturer. The size of the batch and any wider risk are not documented."
+      },
+      "spending": [
+        {
+          "item": "Forum and social search: origin of wider claim",
+          "amount": 0.005,
+          "tx": "0x0000...d4e8"
+        },
+        {
+          "item": "Video transcript lookup: unboxing review",
+          "amount": 0.01,
+          "tx": "0x0000...e2a5"
+        },
+        {
+          "item": "Verified human tip: serial label check",
+          "amount": 0.05,
+          "tx": "0x0000...f610"
+        }
+      ],
+      "pullQuote": "The broader versions appear to descend from a forum thread that added a sentence of its own.",
+      "caption": "A repair bench of the kind where serial labels are read. Archive photograph."
+    },
+    {
+      "id": "grant-claim",
+      "sample": true,
+      "section": "Open Source",
+      "kicker": "Field Note",
+      "headline": "A Funding Announcement for an Open Source Library, Checked Line by Line",
+      "summary": "A press post says a foundation committed a large sum to a popular library. The foundation's own page lists a smaller grant and a different recipient name.",
+      "date": "2026-11-15",
+      "readMinutes": 3,
+      "art": "press",
+      "credit": "PHOTO: J. ARCHIVE",
+      "body": [
+        "The announcement reads cleanly: a foundation, a library, and a figure with many zeros. Each sentence is plausible. The trouble is that no sentence links to anything.",
+        "Joan searched the foundation's grant register and found one entry that matches the library's maintainers by name. The amount is a fraction of the announced figure and is spread across two years.",
+        "The larger number appears to come from the total of the foundation's whole cycle, which includes grants to other recipients. The announcement may have folded the two together.",
+        "The maintainers have not answered a request for comment. That absence is recorded here and is not treated as confirmation or denial."
+      ],
+      "know": [
+        "The foundation's grant register lists one matching entry, smaller than the announced figure.",
+        "The grant is paid over two years.",
+        "The larger figure matches the foundation's total for the whole cycle."
+      ],
+      "unclear": [
+        "Whether a second grant is pending approval.",
+        "Whether the recipient name difference reflects a legal entity or a mistake.",
+        "What the maintainers intend to say about the discrepancy."
+      ],
+      "sources": [
+        {
+          "label": "Foundation grant register",
+          "kind": "Original",
+          "note": "Primary document",
+          "url": "https://example.org/sample/grant-register"
+        },
+        {
+          "label": "Announcement post",
+          "kind": "Claim",
+          "note": "No links to sources",
+          "url": "https://example.org/sample/announcement"
+        }
+      ],
+      "confidence": {
+        "level": "low",
+        "reason": "Only one primary document was found and the maintainers did not respond. The explanation for the larger figure is an inference."
+      },
+      "spending": [
+        {
+          "item": "Web search: grant register entries",
+          "amount": 0.005,
+          "tx": "0x0000...0a9b"
+        },
+        {
+          "item": "Document text extraction",
+          "amount": 0.01,
+          "tx": "0x0000...1c4d"
+        }
+      ],
+      "pullQuote": "Each sentence is plausible. The trouble is that no sentence links to anything.",
+      "caption": "A press room, from the archive. Announcements travel faster than registers."
+    }
+  ]
+}

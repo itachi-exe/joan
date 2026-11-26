@@ -1,0 +1,8 @@
+{
+  "attempt": "First public UI commission",
+  "source": "https://www.rfc-editor.org/rfc/rfc9110.html",
+  "status": 502,
+  "error": "search_size",
+  "message": "Public research exceeds 512 KiB",
+  "outcome": "Failed closed before any LLM call or publication. Retried using the official text version used by the earlier verified local run."
+}

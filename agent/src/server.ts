@@ -1,0 +1,11 @@
+import { Store } from './store.js';
+import { Joan } from './joan.js';
+import { api } from './api.js';
+const store=new Store(process.env.JOAN_DB_PATH||'state/joan.sqlite');
+const joan=new Joan(store,process.env);
+const reconciliation=await joan.init();
+const port=Number(process.env.PORT||4310);
+if(!Number.isInteger(port)||port<1||port>65535)throw new Error('PORT must be 1..65535');
+const server=api(joan,process.env.JOAN_CORS_ORIGINS?.split(',').map(s=>s.trim()),process.env.JOAN_PUBLIC_LIMITS==='1');
+server.listen(port,'127.0.0.1',()=>console.log(JSON.stringify({service:'joan-agent',url:`http://127.0.0.1:${port}`,walletMode:joan.wallet.mode,searchMode:joan.search.mode,llmMode:joan.llm.mode,buyMode:joan.buy.mode,liveSigningEnabled:false,reconciliation})));
+for(const signal of ['SIGINT','SIGTERM'] as const)process.on(signal,()=>server.close(()=>{store.close();process.exit(0);}));

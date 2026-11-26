@@ -1,0 +1,26 @@
+{
+  "start": {
+    "left": 0,
+    "hash": "#/story/ab4a7b7c-39aa-4d4d-a86d-dd351eee675d",
+    "dot": 0
+  },
+  "left1": {
+    "left": 390,
+    "hash": "#/story/51c82b71-b1cd-41f2-8e65-3e98687817eb",
+    "dot": 1
+  },
+  "left2": {
+    "left": 780,
+    "hash": "#/story/849a778e-e901-41ca-a2b9-0434de588fba",
+    "dot": 2
+  },
+  "right": {
+    "left": 390,
+    "hash": "#/story/51c82b71-b1cd-41f2-8e65-3e98687817eb",
+    "dot": 1
+  },
+  "verticalScroll": 600,
+  "documentWidth": 390,
+  "consoleErrors": []
+}
+PASS: CDP left, left, right, vertical swipe; zero console errors; zero overflow

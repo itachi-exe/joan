@@ -1,0 +1,13 @@
+
+> joan-web@0.1.0 build
+> tsc --noEmit && vite build --outDir ../agent/evidence/web-dist --emptyOutDir
+
+vite v5.4.21 building for production...
+transforming...
+✓ 14 modules transformed.
+rendering chunks...
+computing gzip size...
+../agent/evidence/web-dist/index.html                  0.98 kB │ gzip:  0.50 kB
+../agent/evidence/web-dist/assets/index-C7SAnRvE.css  32.91 kB │ gzip:  8.01 kB
+../agent/evidence/web-dist/assets/index-B_lG6kWG.js   47.38 kB │ gzip: 16.91 kB
+✓ built in 464ms

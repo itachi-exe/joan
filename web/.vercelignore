@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/shots
+/evidence
+/inspo
+/scripts
+/tests
+*.log
+.env*
+!.env.example

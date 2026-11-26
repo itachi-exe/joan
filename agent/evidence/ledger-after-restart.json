@@ -1,0 +1,30 @@
+{
+  "mode": "mock",
+  "demoData": true,
+  "entries": [
+    {
+      "key": "80edcf9a-18de-4cf4-a36e-eeb78da678cf:research:1",
+      "assignmentId": "80edcf9a-18de-4cf4-a36e-eeb78da678cf",
+      "query": "Check this public transit fare claim using original sources",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "43b28e7b1f5024e152a0433764bcd807e1276667b107e28e826523067a85771c",
+      "state": "settled",
+      "receipt": "mock_74165c3b42af4883724ffce0",
+      "error": null,
+      "createdAt": "2026-11-26T07:23:19.259Z"
+    },
+    {
+      "key": "c663b8ce-9f72-4486-a0f8-3f89da52851e:research:1",
+      "assignmentId": "c663b8ce-9f72-4486-a0f8-3f89da52851e",
+      "query": "Check this public transit fare claim using original sources",
+      "amountMicros": 5000,
+      "destination": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "fingerprint": "15124c3418e763d6ea8fe8855ed6241173f83d34694ec802f9c2c4856aa3eadd",
+      "state": "settled",
+      "receipt": "mock_c0c7b7f5a105da438742fa7b",
+      "error": null,
+      "createdAt": "2026-11-26T07:23:27.627Z"
+    }
+  ]
+}

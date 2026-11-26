@@ -1,0 +1,89 @@
+
+> joan-web@0.1.0 test:e2e
+> /usr/bin/python3 scripts/e2e.py
+
+PASS m entrance has sound control
+PASS m entrance sound control toggles
+PASS m entrance types a line
+PASS m entrance hands off to front
+PASS m front no overflow
+PASS m ledger renders
+PASS m ledger has section bars
+PASS m wire shows 5 rows
+PASS m wire ticker rotates
+PASS m demo tag on wire
+PASS m section tab filters
+PASS m 90s feature opens
+PASS m 90s no overflow
+PASS m 90s photo loaded
+PASS m dispatch has caption
+PASS m dispatch has pull quote
+PASS m dispatch has ornament
+PASS m dispatch has end mark
+PASS m dispatch no overflow
+PASS m receipt slip opens
+PASS m receipt shows demo tag
+PASS m receipt slip closes
+PASS m archives no overflow
+PASS m short assignment rejected
+PASS m zero budget rejected
+PASS m commission shows researching
+PASS m commission published
+PASS m dispatch stored, within cap
+PASS m new dispatch opens
+PASS m new dispatch has demo tag
+PASS m new dispatch leads front page
+PASS m ledger counts new dispatch
+PASS m front still no overflow
+PASS m dispatch survives reload
+PASS m about no overflow
+PASS m no dead # links
+PASS m zero console errors
+PASS m no HTTP >= 400 responses
+PASS d entrance has sound control
+PASS d entrance sound control toggles
+PASS d entrance types a line
+PASS d entrance hands off to front
+PASS d front no overflow
+PASS d ledger renders
+PASS d ledger has section bars
+PASS d wire shows 5 rows
+PASS d wire ticker rotates
+PASS d demo tag on wire
+PASS d right column holds ledger, wire, teaser
+PASS d right column inside viewport
+PASS d section tab filters
+PASS d 90s feature opens
+PASS d 90s no overflow
+PASS d 90s photo loaded
+PASS d dispatch has caption
+PASS d dispatch has pull quote
+PASS d dispatch has ornament
+PASS d dispatch has end mark
+PASS d dispatch no overflow
+PASS d receipt slip opens
+PASS d receipt shows demo tag
+PASS d receipt slip closes
+PASS d page turn class applied
+PASS d next dispatch loaded
+PASS d arrow key goes back
+PASS d archives no overflow
+PASS d short assignment rejected
+PASS d zero budget rejected
+PASS d commission shows researching
+PASS d commission published
+PASS d dispatch stored, within cap
+PASS d new dispatch opens
+PASS d new dispatch has demo tag
+PASS d new dispatch leads front page
+PASS d ledger counts new dispatch
+PASS d front still no overflow
+PASS d dispatch survives reload
+PASS d about no overflow
+PASS d no dead # links
+PASS d zero console errors
+PASS d no HTTP >= 400 responses
+PASS interrupted commission resumes after reload
+PASS reduced motion opens immediately
+
+83 passed, 0 failed
